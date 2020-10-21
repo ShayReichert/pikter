@@ -44,6 +44,7 @@ const Message = ({ message }) => {
   };
 
   const isOwner = user && user.uid === message.postedBy.id;
+
   return (
     <div className="message-container">
       <div>
